@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D3 Choropleth Map</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.2/d3.min.js"
+      integrity="sha512-oKI0pS1ut+mxQZdqnD3w9fqArLyILRsT3Dx0B+8RVEXzEk3aNK3J3pWlaGJ8MtTs1oiwyXDAH6hG6jy1sY0YqA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">United States Educational Attainment</h1>
+      <p id="description">
+        Percentage of adults age 25 and older with a bachelor's degree or higher
+        (2010-2014)
+      </p>
+      <div id="svg-container"></div>
+    </div>
+    <div id="tooltip-container"></div>
+    <script src="./js/app.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
